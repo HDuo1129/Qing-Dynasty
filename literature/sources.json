@@ -24,5 +24,41 @@
     "sha256": "09b5fe41680ca010998fce7078bd71fde02e60f297b1d12a0ff9dab0e66cb90a",
     "verification": "PDF header, end marker, parsed pages, title, paper number, and first author checked.",
     "rights": "Original authors and NBER rights statements apply."
+  },
+  {
+    "citation_key": "BaiJia2026MeritocracyNetworks",
+    "title": "Meritocracy and the Networks It Forged: China’s Imperial Examination",
+    "authors": [
+      "Ying Bai",
+      "Ruixue Jia"
+    ],
+    "institution": "National Bureau of Economic Research",
+    "series": "NBER Working Paper",
+    "number": "35556",
+    "issue_date": "2026-07",
+    "doi": "10.3386/w35556",
+    "landing_page": "https://www.nber.org/papers/w35556",
+    "download_url": "https://www.nber.org/system/files/working_papers/w35556/w35556.pdf",
+    "download_date": "2026-10-22",
+    "local_file": "Bai_Jia_2026_Meritocracy_Networks_NBER_w35556.pdf",
+    "bytes": 1680912,
+    "pages": 33,
+    "sha256": "a071645901661c154aea5f7c8535764330d315e3185fc8b1b6c59fa36734e134",
+    "verification": "PDF header, end marker, page count, title, authors and paper number checked; key tables visually inspected.",
+    "rights": "Original authors and NBER rights statements apply.",
+    "published_version": {
+      "journal": "The ANNALS of the American Academy of Political and Social Science",
+      "volume": "718",
+      "issue": "1",
+      "pages": "138-164",
+      "doi": "10.1177/00027162261473089",
+      "publisher_url": "https://journals.sagepub.com/doi/10.1177/00027162261473089",
+      "first_published_online": "2026-09-15",
+      "issue_year_as_listed_by_publisher": 2025,
+      "year_as_listed_on_author_website": 2026,
+      "author_publications_url": "https://www.ruixuejia.com/publications.html",
+      "version_note": "Reading notes use the archived July 2026 NBER working paper, not journal pagination. Issue year and online publication year differ in source metadata."
+    },
+    "reading_note": "notes/Bai_Jia_2026_Meritocracy_Networks_NBER_w35556_notes.md"
   }
 ]
