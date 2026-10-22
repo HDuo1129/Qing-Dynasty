@@ -1,0 +1,74 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local.*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Research data: documentation and folder placeholders only
+/data/raw/*
+!/data/raw/.gitkeep
+!/data/raw/README.md
+/data/derived/*
+!/data/derived/.gitkeep
+!/data/derived/README.md
+/data/additional_data/*
+!/data/additional_data/.gitkeep
+!/data/additional_data/README.md
+/data/data_sharing/*
+!/data/data_sharing/.gitkeep
+!/data/data_sharing/README.md
+/data/archive/*
+!/data/archive/.gitkeep
+!/data/archive/README.md
+
+# Python, R, and notebook caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+
+# Stata temporary and backup files
+*.smcl
+*.stswp
+*.stpr
+*.dta~
+*.do~
+
+# LaTeX build products
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+
+# Replaceable logs and archived outputs
+/outputs/logs/*
+!/outputs/logs/.gitkeep
+!/outputs/logs/README.md
+/outputs/archive/*
+!/outputs/archive/.gitkeep
+!/outputs/archive/README.md
+*.log
+*.tmp
+*.bak
+~$*
