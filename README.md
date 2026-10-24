@@ -4,6 +4,8 @@ This repository is the workflow review for Dong, Jianhao, and Duo on our quantit
 
 > **@Dong 提醒：** 用 Codex 写代码时，提交的作者（author）应该是你自己，Codex 只作为 co-author。目前的提交作者都显示为 `Codex`，所以你没有出现在 Contributors 里。请让 Codex 用你本地的 git 身份提交，并在提交信息末尾加上 `Co-authored-by: Codex <codex@users.noreply.github.com>`。具体做法见 [待办事项](docs/project_notes/todo.md) 和 [AGENTS.md](AGENTS.md)。
 
+> **@所有人 提醒：** 每次和 AI（Codex、Claude 等）互动后，都要让 AI 把这次的进展和决定更新到 [AGENTS.md](AGENTS.md) 的 Project memory 部分，并一起提交。这样我们三个人用的不同 AI 能共享同一份记忆。编辑前先 `git pull --ff-only`，避免覆盖别人的记录。
+
 ## Files
 
 - [科举之党同伐异](https://hkustgz-my.sharepoint.com/:f:/r/personal/rdu159_connect_hkust-gz_edu_cn/Documents/2026.10.14%20%E7%A7%91%E4%B8%BE%E4%B9%8B%E5%85%9A%E5%90%8C%E4%BC%90%E5%BC%82?d=wb958f47171ec4c66ba576b384b83334e&csf=1&web=1&e=iZsrd4)
