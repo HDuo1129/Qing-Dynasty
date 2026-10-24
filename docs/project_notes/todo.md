@@ -2,12 +2,19 @@
 
 ## Dong
 
-- [ ] 把自己加为仓库 contributor（2026-10-24 提出）
-  1. 在 GitHub 通知或邮箱里接受 `HDuo1129/Qing-Dynasty` 的协作者邀请。若没收到，告诉 Duo 重新发送。
-  2. 本地设置提交身份，邮箱要和 GitHub 账号绑定的一致：
+- [ ] 用 Codex 提交时，把自己设为主要作者，Codex 只作为 co-author（2026-10-24 提出）
+
+  现在仓库里由 Codex 推送的提交，作者都是 `Codex <codex@users.noreply.github.com>`，所以 GitHub 把贡献算给了 Codex，你没有出现在 Contributors 里。
+
+  1. 本地设置你的提交身份，邮箱要和你 GitHub 账号绑定的邮箱一致：
      ```bash
      git config user.name "你的名字"
      git config user.email "你在 GitHub 绑定的邮箱"
      ```
-  3. 用自己的账号提交并 push 一次（例如勾选本条待办），之后就会出现在 Contributors 列表中。
-  4. 完成后删除 README 顶部的提醒。
+  2. 让 Codex 提交时不要改作者，用上面这个本地身份，并在提交信息最后空一行加上：
+     ```
+     Co-authored-by: Codex <codex@users.noreply.github.com>
+     ```
+     仓库根目录的 `AGENTS.md` 已经写了这条规则，Codex 会自动读取。
+  3. 之后的提交在 GitHub 上会显示你是作者、Codex 是共同作者，你也会出现在 Contributors 列表中。
+  4. 确认没问题后，删除 README 顶部的提醒，并勾选本条。

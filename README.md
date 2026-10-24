@@ -2,7 +2,7 @@
 
 This repository is the workflow review for Dong, Jianhao, and Duo on our quantitative history research on the Qing Dynasty.
 
-> **@Dong 提醒：** 你还没有出现在本仓库的 Contributors 里。请接受仓库的协作者邀请（Settings → Collaborators），并确认本地 `git config user.email` 与你 GitHub 账号绑定的邮箱一致，然后用自己的账号提交一次。完成后可以删掉这条提醒。详见 [待办事项](docs/project_notes/todo.md)。
+> **@Dong 提醒：** 用 Codex 写代码时，提交的作者（author）应该是你自己，Codex 只作为 co-author。目前的提交作者都显示为 `Codex`，所以你没有出现在 Contributors 里。请让 Codex 用你本地的 git 身份提交，并在提交信息末尾加上 `Co-authored-by: Codex <codex@users.noreply.github.com>`。具体做法见 [待办事项](docs/project_notes/todo.md) 和 [AGENTS.md](AGENTS.md)。
 
 ## Files
 
