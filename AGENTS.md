@@ -24,3 +24,5 @@ This file is the shared memory for every AI tool used on this project (Codex, Cl
 ## Project memory
 
 - 2026-10-24 (Duo): Commits must be authored by the human collaborator, with the AI as co-author. Every AI session updates this section so all three of us share the same context.
+- 2026-10-24 (Duo): Dong is not yet listed as a contributor because his Codex commits were authored as `Codex`. Reminder and steps are in README and `docs/project_notes/todo.md`. The three earlier Codex-authored commits are left as they are (no history rewrite).
+- 2026-10-24 (Duo): `CLAUDE.md` only imports this file, so Claude and Codex share one memory. Saying "更新 AGENTS.md" at the end of a session is the agreed cue for the AI to update this section.
